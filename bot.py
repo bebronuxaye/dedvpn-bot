@@ -5,7 +5,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, WebAppI
 from telegram.ext import Application, CommandHandler, CallbackContext
 
 # ============ КОНФИГУРАЦИЯ ============
-TOKEN = os.getenv("8203109932:AAHVBXzDLboMaMhMam_03-WsNCA8Ek767zA")  # ← ЗАМЕНИТЕ НА ВАШ ТОКЕН
+TOKEN = os.getenv("TOKEN")  # ← ЗАМЕНИТЕ НА ВАШ ТОКЕН
 WEB_APP_URL = "https://bebronuxaye.github.io/dedvpn-web/"  # ← ВАШ GitHub Pages URL
 LOG_FILE = "users.txt"  # Файл для логирования
 
@@ -95,4 +95,5 @@ def main():
 if __name__ == '__main__':
 
     main()
+
 
