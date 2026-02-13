@@ -59,7 +59,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     reply_markup = InlineKeyboardMarkup(keyboard)
     
     welcome_text = (
-        "🔐 <b>BarryVPN</b>\n\n"
+        "🔐 <b>DedVPN</b>\n\n"
         "Добро пожаловать в самый быстрый и безопасный VPN сервис!\n\n"
         "Нажмите кнопку ниже, чтобы начать пользоваться BarryVPN:"
     )
@@ -82,3 +82,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
