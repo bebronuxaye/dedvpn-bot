@@ -12,7 +12,7 @@ if not TOKEN:
     raise ValueError("❌ Переменная окружения TOKEN не установлена!")
 
 # Адрес вашего ВПН-сервера (ЗАМЕНИТЕ НА ВАШ РЕАЛЬНЫЙ IP!)
-VPN_SERVER_API = "http://91.109.241.69:5000/api/generate"
+VPN_SERVER_API = "http://91.108.241.69:5000/api/generate"
 
 WEB_APP_BASE_URL = "https://bebronuxaye.github.io/dedvpn-web/"
 LOG_FILE = "users.txt"
@@ -129,3 +129,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
